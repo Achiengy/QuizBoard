@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUIZ FORM</title>
+    <link rel="stylesheet" href="/CSS/form.css">
     
 </head>
 <body>
-    <form>
+    <form id="quiz" name="quiz"> 
         <h1>QUIZ</h1>
-        
-    <label>Inside which HTML element do we put the JavaScript?</label><br>
-    <input type = "radio" id = "mc" name = "question1" value = "head"> head<br>
-    <input type = "radio" id = "mc" name = "question1" value = "body"> body<br>
-    <input type = "radio" id = "mc" name = "question1" value = "Both"> Both<br><br>
+            <hr>
+    <label>Is JavaScript same as Java?</label><br>
+    <input type = "radio" id = "mc" name = "question1" value = "True">True<br>
+    <input type = "radio" id = "mc" name = "question1" value = "False">False<br><br>
+    
 
     <label>How do you write "Hello World" in an alert box?</label><br>
     <input type = "radio" id = "mc" name = "question2" value = "msg("Hello")"> msg ("Hello")<br>
@@ -36,9 +37,10 @@
     <input type = "radio" id = "mc" name = "question5" value = "var colors = "red","green","blue"">var colors = "red","green","blue"<br>
     <input type = "radio" id = "mc" name = "question5" value = "var colors = ["1:red","2:green","3:blue"]">var colors = ["1:red","2:green","3:blue"]<br><br>
 
-    
+    <input id = "button" type = "button" value = "SUBMIT" onclick = "submit();">
         
     </form>
+
     
 </body>
 </html>
