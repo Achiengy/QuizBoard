@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 form{
     background: grey;
     width: 80vh;
@@ -23,4 +27,12 @@ h1{
     margin-left: 40%;
     font-weight: bold;
 }
+
+footer {
+    width:100%;
+    padding-bottom: 3%;
+    padding-top: -2%;
+    color: #23A6F0;
+}
+
 
