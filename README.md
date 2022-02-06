@@ -2,7 +2,7 @@
 
 ##### By Hope Pete
 
-##Project Design Link
+## Project Design Link
 https://www.figma.com/file/2Hl5yupYRQKaT45Hz9XT23
 
 ## Table of Content
@@ -16,15 +16,12 @@ https://www.figma.com/file/2Hl5yupYRQKaT45Hz9XT23
 ## Description
 <p>This is  a website that students use to be able to conduct online tests and be able to view their results at once.</p>
 
-## Installation
-
 ### Requirements
-
 * Either a computer,phone,tablet or an Ipad
-
 * An access to the Internet
 
 ### Installation Process
+Clone this repository to your local system.https://github.com/Achiengy/QuizBoard.git
 
 [Go Back to the top](#portfolio)
 
@@ -33,7 +30,7 @@ https://www.figma.com/file/2Hl5yupYRQKaT45Hz9XT23
 
 * CSS - which was used to style the pages incuding the left aside navigation bar
 
-*Javascript-which was used to call functions to the HTML element
+* Javascript-which was used to call functions to the HTML element
 
 
 [Go Back to the top](#portfolio)
@@ -65,7 +62,6 @@ SOFTWARE.
 [Go Back to the top](#portfolio)
 
 ## Authors Info
-
-Linked - [Hope Pete]()
+Linked - [Hope Pete](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3Bm11EDIJVSQu29ovQ2888fA%3D%3D)
 
 [Go Back to the top](#portfolio)
