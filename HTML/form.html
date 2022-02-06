@@ -5,56 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUIZ FORM</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/form.css">
-    <script src="main.js"></script>
     
 </head>
 <body>
 
     <div class="header">
         <div class="results">
-            <h2>You scored: Not yet attempted</h2>
-
+            <p>ATTEMPT ALL THE QUESTIONS.</p>
+            <!-- <h2>You scored: Not yet attempted</h2> -->
         </div>
     </div>
 
-    <form id="quiz" name="quiz" onsubmit="return onSubmit()"> 
-        <h1>QUIZ</h1>
+    <form  id="quiz"  name="quiz" > 
+        <h1>QUESTIONS</h1>
             <hr>
-    <label>Is JavaScript same as Java?</label><br>
-    <input type = "radio" id = "mc" name = "question1" value = "A">A. True<br>
-    <input type = "radio" id = "mc" name = "question1" value = "B">B. False<br><br>
+    <label>1.Is JavaScript same as Java?</label><br>
+    <input type = "radio" id = "Q" name = "question1" value = "A">A. True<br>
+    <input type = "radio" id = "Q" name = "question1" value = "B">B. False<br><br>
     
 
-    <label>How do you write "Hello World" in an alert box?</label><br>
-    <input type = "radio" id = "mc" name = "question2" value = "A">A. msg ("Hello")<br>
-    <input type = "radio" id = "mc" name = "question2" value = "B">B. Alert ("Hello"); <br>
-    <input type = "radio" id = "mc" name = "question2" value = "C">C. Alertbox ("Hello");<br><br>
+    <label>2.How do you write "Hello World" in an alert box?</label><br>
+    <input type = "radio" id = "Q" name = "question2" value = "A">A. msg ("Hello")<br>
+    <input type = "radio" id = "Q" name = "question2" value = "B">B. Alert ("Hello"); <br>
+    <input type = "radio" id = "Q" name = "question2" value = "C">C. Alertbox ("Hello");<br><br>
 
-    <label>How do you create a function in JavaScript?</label><br>
-    <input type = "radio" id = "mc" name = "question3" value = "A">A. function:myfunction()<br>
-    <input type = "radio" id = "mc" name = "question3" value = "B">B. function myfunction()<br>
-    <input type = "radio" id = "mc" name = "question3" value = "C">C. function = myfunction()<br><br>
+    <label>3.How do you create a function in JavaScript?</label><br>
+    <input type = "radio" id = "Q" name = "question3" value = "A">A. function:myfunction()<br>
+    <input type = "radio" id = "Q" name = "question3" value = "B">B. function myfunction()<br>
+    <input type = "radio" id = "Q" name = "question3" value = "C">C. function = myfunction()<br><br>
 
-    <label>How to write an IF statement in JavaScript?</label><br>
-    <input type = "radio" id = "mc" name = "question4" value = "A">A. if i==5 then<br>
-    <input type = "radio" id = "mc" name = "question4" value = "B">B. if i=5<br>
-    <input type = "radio" id = "mc" name = "question4" value = "C">C. if (i==5)<br><br>
+    <label>4.How to write an IF statement in JavaScript?</label><br>
+    <input type = "radio" id = "Q" name = "question4" value = "A">A. if i==5 then<br>
+    <input type = "radio" id = "Q" name = "question4" value = "B">B. if i=5<br>
+    <input type = "radio" id = "Q" name = "question4" value = "C">C. if (i==5)<br><br>
 
-    <label>What is the correct way to write a JavaScript array?</label><br>
-    <input type = "radio" id = "mc" name = "question5" value = "A">A. var colors = ["red","green","blue"]<br>
-    <input type = "radio" id = "mc" name = "question5" value = "B">B. var colors = "red","green","blue"<br>
-    <input type = "radio" id = "mc" name = "question5" value = "C">C. var colors = ["1:red","2:green","3:blue"]<br><br>
+    <label>5.What is the correct way to write a JavaScript array?</label><br>
+    <input type = "radio" id = "Q" name = "question5" value = "A">A. var colors = ["red","green","blue"]<br>
+    <input type = "radio" id = "Q" name = "question5" value = "B">B. var colors = "red","green","blue"<br>
+    <input type = "radio" id = "Q" name = "question5" value = "C">C. var colors = ["1:red","2:green","3:blue"]<br><br>
 
-    <input id = "button" type = "button" value = "SUBMIT TEST">
+    <button id="button" onclick = "check();">SUBMIT</button>
         
     </form>
 
-    <footer>
+    <div id = "after_submit">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+    </div>
+
+    <!-- <footer>
         <p id="one">Copyright 2022.All rights reserved.</p>
         <p id="two">Designed by Hope Achieng' Pete</p>
-    </footer>
+    </footer> -->
 
-    
+    <script src= "main.js"></script>
+      
 </body>
 </html>
