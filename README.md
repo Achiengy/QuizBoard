@@ -8,7 +8,8 @@ https://www.figma.com/file/2Hl5yupYRQKaT45Hz9XT23
 ## Table of Content
 
 + [Description](#description)
-+ [Installation Requirement](#Installation)
++ [ Requirement](#Requirement)
++ [Installation](#Installation)
 + [Technology Used](#technology-used)
 + [Licence](#licence)
 + [Authors Info](#author-Info)
