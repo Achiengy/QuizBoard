@@ -33,7 +33,7 @@ Clone this repository to your local system.https://github.com/Achiengy/QuizBoard
 
 * CSS - which was used to style the pages incuding the left aside navigation bar
 
-* Javascript-which was used to call functions to the HTML element
+* Javascript-which was used to call functions in HTML
 
 
 ## Licence
