@@ -34,6 +34,7 @@ function check(){
 
 	if (correct <= 2) {
 		score = 2;
+        
 	}
 
 	if (correct == 3) {
@@ -51,5 +52,35 @@ function check(){
 	document.getElementById("picture").src = pictures[score];
 	}
 
-    // BUSINESS LOGIC
+
+
+
+
+     // BUSINESS LOGIC
+     function Percentage(){
+        let percentageScore = Math.floor((score/5)*100);
+
+        if (percentageScore > 80) {
+            correct.innerText = correctAnswers + "/5";
+            scoreLabel.innerText = percentageScore + "%";
+            messages.innerText = comments[80];
+          } else if (percentageScore >= 50) {
+            messages.innerText = correctAnswers + "/5";
+        
+            score.innerText = percentageScore + "%";
+            messages.innerText = comments[50];
+          } else {
+            correct.innerText = correctAnswers + "/5";
+            score.innerText = percentageScore + "%";
+            messages.innerText = comments[49];
+          }
+
+
+    }
+
+
+
+    
+
+   
 	
