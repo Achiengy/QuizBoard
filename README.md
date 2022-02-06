@@ -1,5 +1,5 @@
 # QuizBoard
-![Quiz Board](./Images/webpage.png)
+# ![QuizBoard](/Images/webpage.png)
 
 ##### By Hope Pete
 
