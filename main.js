@@ -1,20 +1,55 @@
-// USER INTERFACE LOGIC
-function onSubmit(){
-    var score=0;
-    var numOfQuestions = 5;
-    var ansArr = ['B','B','C','C','A'];
+// USER-INTERFACE LOGIC
+function check(){
+    
+    var question1 = document.quiz.question1.value;
+	var question2 = document.quiz.question2.value;
+	var question3 = document.quiz.question3.value;
+    var question4 = document.quiz.question4.value;
+    var question5 = document.quiz.question5.value;
+	var correct = 0;
 
-    var question1 = document.forms['quiz']['question1'].value;
-    var question2 = document.forms['quiz']['question2'].value;
-    var question3 = document.forms['quiz']['question3'].value;
-    var question4 = document.forms['quiz']['question4'].value;
-    var question5 = document.forms['quiz']['question5'].value;
 
-     for(var i = 1; i <= numOfQuestions; i++){
-         if(eval('quesion' + i) == ''){
-             alert("You missed question number " + i);
-        }
-
-        for(var i =1; i <= numOfQuestions)
-     }
+	if (question1 == "B") {
+		correct++;
 }
+	if (question2 == "B") {
+		correct++;
+}	
+	if (question3 == "C") {
+		correct++;
+	}
+
+    if (question4 == "C") {
+		correct++;
+	}
+
+    if (question5 == "A") {
+		correct++;
+	}
+
+	
+	var pictures = ["/Images/results.jpg", "/Images/results.jpg", "/Images/results.jpg",];
+	var messages = ["EXCELLENT!", "FAIR!", "POOR! RETAKE TEST"];
+	var score;
+
+	if (correct <= 2) {
+		score = 2;
+	}
+
+	if (correct == 3) {
+		score = 1;
+	}
+
+	if (correct >= 4) {
+		score = 0;
+	}
+
+	document.getElementById("after_submit").style.visibility = "visible";
+
+	document.getElementById("message").innerHTML = messages[score];
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
+	document.getElementById("picture").src = pictures[score];
+	}
+
+    // BUSINESS LOGIC
+	
