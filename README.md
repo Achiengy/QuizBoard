@@ -5,6 +5,7 @@
 ## Project Design Link
 https://www.figma.com/file/2Hl5yupYRQKaT45Hz9XT23
 
+
 ## Table of Content
 
 + [Description](#description)
@@ -14,8 +15,10 @@ https://www.figma.com/file/2Hl5yupYRQKaT45Hz9XT23
 + [Licence](#licence)
 + [Authors Info](#author-Info)
 
+
 ## Description
 <p>This is  a website that students use to be able to conduct online tests and be able to view their results at once.</p>
+
 
 ### Requirements
 * Either a computer,phone,tablet or an Ipad
@@ -24,7 +27,6 @@ https://www.figma.com/file/2Hl5yupYRQKaT45Hz9XT23
 ### Installation Process
 Clone this repository to your local system.https://github.com/Achiengy/QuizBoard.git
 
-[Go Back to the top](#portfolio)
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
@@ -33,8 +35,6 @@ Clone this repository to your local system.https://github.com/Achiengy/QuizBoard
 
 * Javascript-which was used to call functions to the HTML element
 
-
-[Go Back to the top](#portfolio)
 
 ## Licence
 
@@ -60,9 +60,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](#portfolio)
 
 ## Authors Info
 Linked - [Hope Pete](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3Bm11EDIJVSQu29ovQ2888fA%3D%3D)
 
-[Go Back to the top](#portfolio)
