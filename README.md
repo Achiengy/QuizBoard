@@ -18,7 +18,7 @@ https://www.figma.com/file/2Hl5yupYRQKaT45Hz9XT23
 
 
 ## Description
-<p>This is  a website that students use to be able to conduct online tests and be able to view their results at once.</p>
+<p>This is my third website as a student at Moringa School.It asses my knowledge in fundamentals of Javascript.It is a website that students use to be able to conduct online tests and be able to view their results at once.</p>
 
 
 ### Requirements
